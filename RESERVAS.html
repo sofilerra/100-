@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BIRKIN</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="shortcut icon" href="imagenes/images-PhotoRoom.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+    <body>
+        <header> 
+            <div >
+            <a href="index.html"><img class="logo" src="imagenes/8.png"></a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">INICIO</a>
+                <a href="RESERVAS.html">RESERVAS</a>
+                <a href="CARTA.html">CARTA</a>
+                <a href="NOSOTROS.html">NOSOTROS</a>
+                <a href="TIENDA.html">TIENDAS</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </header>
+        <article class="principal">
+            <div>
+               RESERVAS
+            </div>
+            </article>
+        <div class="fotosreserva">
+            <ul>
+                <li>
+                    <img src="imagenes/reserva1a.jpeg" width="100%">
+                </li>
+                <li>
+                    <img src="imagenes/reserva2.jpeg" width="100%">
+                </li>
+                <li>
+                    <img src="imagenes/reserva3.jpeg" width="100%">
+                </li>
+                <li>
+                    <img src="imagenes/4.jpeg" width="100%">
+                </li>
+            </ul>
+            </div>
+            <div style="align-content: center; text-align: center; font-size: 18px;">
+                <form class="reservas">
+                    <p><strong>Nombre:</strong> <input name="nombre" type="text" autofocus="autofocus" required placeholder="Nombre"></p>
+                    <p><strong>Apellido:</strong> <input type="text" name="apellido" placeholder="Apellido"></p>
+                    <p><strong>Email:</strong> <input type="email" name="mail" required placeholder="Email"></p>
+                    <p><strong>Fecha:</strong> <input type="date" name="dia"></p>
+                    <p><strong>Acompañantes: </strong>
+                        <input type="checkbox" name="opciones" id="opcion1" value="1">1
+                        <input type="checkbox" name="opciones" id="opcion2" value="2">2
+                        <input type="checkbox" name="opciones" id="opcion3" value="3">3 
+                        <input type="checkbox" name="opciones" id="opcion3" value="3">4
+                        <input type="checkbox" name="opciones" id="opcion3" value="3">5
+                    </p>
+                    <p><strong>Dejanos tu mensaje:</strong> <textarea name="mensaje" required="required" placeholder="Dejanos tu mensaje"></textarea> </p>
+                    <p><input type="checkbox" name="acepto" value="SI">Acepto las condiciones</p>
+                    
+                 <button> <a id="gracias" class="gracias" href="gracias.html"> Enviar </a></button>
+                </form>
+            
+            <footer class="fondo">
+                <a href="https://www.instagram.com/birkincafe/?hl=es-la"><img class="ig" src="imagenes/download-PhotoRoom.png" width="1.8%"></a>
+                <a href="https://www.facebook.com/birkincafe"><img class="fb" src="imagenes/download (1)-PhotoRoom (1).png" width="1.2%"></a>
+                <p class="derechos">© 2022 Mudraplantbased. Todos los derechos reservados. Términos y condiciones. Políticas de privacidad.</p>
+               </footer>
+               <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+                </script>
+                </body>
+
+           
